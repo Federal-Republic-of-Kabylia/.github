@@ -1,0 +1,39 @@
+name: General inquiry
+description: Ask a question or share feedback about the organization’s public resources.
+title: ""
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contacting the Federal Republic of Kabylia public digital resources.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact information
+      description: Optional contact details for follow-up.
+      placeholder: name@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Your message
+      description: Please describe your question or feedback.
+      placeholder: Share the details here.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - General question
+        - Documentation issue
+        - Feedback
+        - Other
+    validations:
+      required: true
