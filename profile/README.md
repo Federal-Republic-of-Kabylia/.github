@@ -59,7 +59,7 @@ Our guiding principles are:
 
 ## Languages
 
-Kabyle • French • English
+English • French • Kabyle
 
 ---
 

@@ -68,9 +68,9 @@ Our guiding principles are:
 
 Primary working languages of this organization:
 
-- Kabyle
-- French
 - English
+- French
+- Kabyle
 
 ---
 
